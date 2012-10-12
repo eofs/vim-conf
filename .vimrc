@@ -95,9 +95,9 @@
     set list
     set listchars=tab:,.,trail:.,extends:#,nbsp:.   " Highlight problematic whitespace
 
+    set background=dark
     if filereadable(expand("~/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
         let g:solarized_termcolors=256
-        set background=dark
         color solarized
     endif
 " }
