@@ -67,3 +67,15 @@ Vim is set to automatically activate virtualenv when Django project is activated
         </tr>
     </tbody>
 </table>
+
+# Plugins #
+1. [NERD Tree](https://github.com/scrooloose/nerdtree)
+2. [NERD Tree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
+3. [fugivite.vim](https://github.com/tpope/vim-fugitive)
+4. [ctrlp.vim](https://github.com/kien/ctrlp.vim)
+5. [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+6. [vim-session](https://github.com/xolox/vim-session)
+7. [bufexplorer.zip](http://www.vim.org/scripts/script.php?script_id=42)
+8. [neocomplcache](https://github.com/Shougo/neocomplcache)
+9. [virtualenv.vim](https://github.com/jmcantrell/vim-virtualenv)
+10. [Vim-Django](http://www.vim.org/scripts/script.php?script_id=4095)
