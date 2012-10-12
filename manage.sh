@@ -74,8 +74,5 @@ fi
 info "Installing and updating plugins"
 vim +BundleInstall! +BundleClean +qall
 
-if [[ $? != 0 ]]; then
-    die "Uh oh! Something went wrong..."
-else
-    info "Happy vim moments!"
-fi
+[ ! $? -eq 0 ] || die "Uh oh! Something went wrong..."
+info "Happy vim moments!"
