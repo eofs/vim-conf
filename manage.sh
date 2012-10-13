@@ -74,5 +74,5 @@ fi
 info "Installing and updating plugins"
 vim +BundleInstall! +BundleClean +qall
 
-[ ! $? -eq 0 ] || die "Uh oh! Something went wrong..."
+[ $? -eq 0 ] || die "Uh oh! Something went wrong..."
 info "Happy vim moments!"
