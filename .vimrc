@@ -21,6 +21,7 @@
     " General bundles {
         Bundle 'scrooloose/nerdtree'
         Bundle 'scrooloose/nerdcommenter'
+        Bundle 'scrooloose/syntastic'
         Bundle 'jistr/vim-nerdtree-tabs'
         Bundle 'tpope/vim-fugitive'
         Bundle 'kien/ctrlp.vim'
@@ -35,6 +36,7 @@
     " Python (and Django) {
         Bundle 'jmcantrell/vim-virtualenv'
         Bundle 'vim-django'
+        Bundle 'klen/python-mode'
     " }
 " }
 
@@ -196,6 +198,10 @@
         nmap <silent> <leader>dm :DjangoManage 
         nmap <leader>dc :DjangoCollectStaticLink<CR>
         nmap <leader>ds :DjangoSyncDb<CR>
+    " }
+
+    " python-mode {
+        let g:pymode_lint_checker = 'pyflakes'
     " }
 
     " Neocomplcache {
