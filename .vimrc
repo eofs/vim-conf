@@ -32,6 +32,7 @@
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neocomplcache-snippets-complete'
         Bundle 'Lokaltog/vim-powerline'
+        Bundle 'majutsushi/tagbar'
     " }
     " Python (and Django) {
         Bundle 'jmcantrell/vim-virtualenv'
@@ -180,6 +181,14 @@
         nmap <leader>vl :VirtualEnvList<CR>
         nmap <leader>va :VirtualEnvActivate
         nmap <leader>vd :VirtualEnvDeactivate<CR>
+    " }
+
+    " Ctags {
+        set tags=./tags;/
+    "
+
+    " Tagbar {
+        nmap <F8> :TagbarToggle<CR>
     " }
 
     " Sessions {
