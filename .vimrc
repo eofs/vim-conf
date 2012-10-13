@@ -163,6 +163,10 @@
     " vim-django {
         let g:django_activate_nerdtree = 1          " Launch NerdTree when project is activated
         let g:django_activate_virtualenv = 1        " Activate virtualenv when project is activated
+
+        nmap <leader>vl :VirtualEnvList<CR>
+        nmap <leader>va :VirtualEnvActivate
+        nmap <leader>vd :VirtualEnvDeactivate<CR>
     " }
 
     " Sessions {
@@ -181,7 +185,15 @@
         nnoremap <silent> <leader>gb :Gblame<CR>
         nnoremap <silent> <leader>gl :Glog<CR>
         nnoremap <silent> <leader>gp :Git push<CR>
-     "}
+    " }
+
+    " vim-django {
+        nmap <leader>da :DjangoProjectActivate 
+        nmap <silent> <leader>dad :DjangoAdmin 
+        nmap <silent> <leader>dm :DjangoManage 
+        nmap <leader>dc :DjangoCollectStaticLink<CR>
+        nmap <leader>ds :DjangoSyncDb<CR>
+    " }
 
     " Neocomplcache {
         " Disable AutoComplPop.
