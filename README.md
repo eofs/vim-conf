@@ -89,6 +89,7 @@ Vim is set to automatically activate virtualenv when Django project is activated
 # Plugins #
 * [NERD Tree](https://github.com/scrooloose/nerdtree)
 * [NERD Tree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
+* [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [fugivite.vim](https://github.com/tpope/vim-fugitive)
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
