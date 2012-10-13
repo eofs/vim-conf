@@ -68,6 +68,21 @@ Vim is set to automatically activate virtualenv when Django project is activated
             <td><code>&lt;leader&gt;ds</code></td>
             <td>Synchronize your database</td>
         </tr>
+        <tr>
+            <td>VirtualEnvList</td>
+            <td><code>&lt;leader&gt;vl</code></td>
+            <td>List available virtualenvs</td>
+        </tr>
+        <tr>
+            <td>VirtualEnvActivate name</td>
+            <td><code>&lt;leader&gt;va</code></td>
+            <td>Activate a virtualenv</td>
+        </tr>
+        <tr>
+            <td>VirtualEnvDeactivate</td>
+            <td><code>&lt;leader&gt;vd</code></td>
+            <td>Deactivate current virtualenv</td>
+        </tr>
     </tbody>
 </table>
 
