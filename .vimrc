@@ -26,7 +26,9 @@
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'xolox/vim-session'
         Bundle 'bufexplorer.zip'
+        Bundle 'honza/snipmate-snippets'
         Bundle 'Shougo/neocomplcache'
+        Bundle 'Shougo/neocomplcache-snippets-complete'
     " }
     " Python (and Django) {
         Bundle 'jmcantrell/vim-virtualenv'
