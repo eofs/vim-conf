@@ -13,9 +13,12 @@ Run installation command adove or run manage.sh manually
 
     ~/.vim.eofs/manage.sh
 
-# Configuration #
+## Configuration ##
 
 You can override default settings by using custom .vimrc.local file (stored in your home folder e.g. */home/eofs/.vimrc.local*)
+
+# Usage #
+`<leader>` is set by default to `,` (comma)
 
 ## Django and virtualenv ##
 
@@ -27,11 +30,11 @@ Set following line to your .vimrc.local to override path:
 
 Vim is set to automatically activate virtualenv when Django project is activated. To use this feature, create your projects with following steps:
 
- 1. Create a Django project (To your folder containing all the projects e.g. */home/eofs/src/my_project*)
- 2. Run: **virtualenv --no-site-packages ~/.virtualenvs/my_project** *[Note that my_project must be exactly the same as your Django project!]*
- 3. Run: **vim** or **gvim**
- 4. Execute **:DjangoProjectActivate my_project**
- 5. Now vim autocompletes your python code and you can use **:DjangoManage** to run management commands. Happy coding!
+ 1. Create a Django project (To your folder containing all the projects e.g. `/home/eofs/src/my_project`)
+ 2. Run: `virtualenv --no-site-packages ~/.virtualenvs/my_project` *[Note that my_project must be exactly the same as your Django project!]*
+ 3. Run `vim` or `gvim`
+ 4. Execute `:DjangoProjectActivate my_project`
+ 5. Now vim autocompletes your python code and you can use `:DjangoManage` to run management commands. Happy coding!
 
 <table>
     <thead>
@@ -42,27 +45,27 @@ Vim is set to automatically activate virtualenv when Django project is activated
     <tbody>
         <tr>
             <td>DjangoAdmin command</td>
-            <td>N/A</td>
+            <td><code>&lt;leader&gt;dad</code></td>
             <td>Run a command through django-admin.py</td>
         </tr>
         <tr>
             <td>DjangoManage command</td>
-            <td>N/A</td>
+            <td><code>&lt;leader&gt;dm</code></td>
             <td>Run a command through manage.py</td>
         </tr>
         <tr>
             <td>DjangoProjectActivate project_name</td>
-            <td>N/A</td>
+            <td><code>&lt;leader&gt;da</code></td>
             <td>Activate Django project and virtualenv</td>
         </tr>
         <tr>
             <td>DjangoCollectStaticLinks</td>
-            <td>N/A</td>
+            <td><code>&lt;leader&gt;dc</code></td>
             <td>Collect your static files and copy them by linking</td>
         </tr>
         <tr>
             <td>DjangoSyncDb</td>
-            <td>N/A</td>
+            <td><code>&lt;leader&gt;ds</code></td>
             <td>Synchronize your database</td>
         </tr>
     </tbody>
