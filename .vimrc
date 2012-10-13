@@ -20,6 +20,7 @@
 
     " General bundles {
         Bundle 'scrooloose/nerdtree'
+        Bundle 'scrooloose/nerdcommenter'
         Bundle 'jistr/vim-nerdtree-tabs'
         Bundle 'tpope/vim-fugitive'
         Bundle 'kien/ctrlp.vim'
