@@ -18,7 +18,7 @@ Run installation command adove or run manage.sh manually
 You can override default settings by using custom .vimrc.local file (stored in your home folder e.g. */home/eofs/.vimrc.local*)
 
 # Usage #
-`<leader>` is set by default to `,` (comma)
+`<leader>` is set to `,` (comma) by default.
 
 ## Django and virtualenv ##
 
