@@ -29,6 +29,7 @@
         Bundle 'honza/snipmate-snippets'
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neocomplcache-snippets-complete'
+        Bundle 'Lokaltog/vim-powerline'
     " }
     " Python (and Django) {
         Bundle 'jmcantrell/vim-virtualenv'
