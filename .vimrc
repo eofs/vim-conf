@@ -30,7 +30,7 @@
         Bundle 'bufexplorer.zip'
         Bundle 'honza/snipmate-snippets'
         Bundle 'Shougo/neocomplcache'
-        Bundle 'Shougo/neocomplcache-snippets-complete'
+        Bundle 'Shougo/neosnippet'
         Bundle 'Lokaltog/vim-powerline'
         Bundle 'majutsushi/tagbar'
     " }
