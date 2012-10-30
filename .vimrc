@@ -31,6 +31,7 @@
         Bundle 'honza/snipmate-snippets'
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neosnippet'
+        Bundle 'honza/snipmate-snippets'
         Bundle 'Lokaltog/vim-powerline'
         Bundle 'majutsushi/tagbar'
     " }
@@ -277,6 +278,9 @@
         if has('conceal')
             set conceallevel=2 concealcursor=i
         endif
+
+        " Tell Neosnippet about these snippets
+        let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
     " }
 " }
 
