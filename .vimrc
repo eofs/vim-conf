@@ -159,6 +159,7 @@
         let NERDTreeQuitOnOpen=1
         let NERDTreeMouseMode=2     " Single click to open dir, double click to open file
         let NERDTreeShowHidden=1
+        let NERDTreeChDirMode=2      " Change working directory automatically
     " }
 
     " ctrlp {
@@ -220,7 +221,7 @@
 
     " python-mode {
         let g:pymode_lint_checker = 'pyflakes'
-        let g:pymode_rope_autoimport_modules = ['django']
+        let g:pymode_rope_autoimport_modules = ['os', 'shutil', 'datetime', 'django']
     " }
 
     " Neocomplcache {
