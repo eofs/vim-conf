@@ -97,7 +97,7 @@ Vim is set to automatically activate virtualenv when Django project is activated
 * [vim-session](https://github.com/xolox/vim-session)
 * [bufexplorer.zip](http://www.vim.org/scripts/script.php?script_id=42)
 * [neocomplcache](https://github.com/Shougo/neocomplcache)
-* [neocomplcache-snippets-complete](https://github.com/Shougo/neocomplcache-snippets-complete)
+* [neosnippet](https://github.com/Shougo/neosnippet)
 * [Powerline](https://github.com/Lokaltog/vim-powerline)
 * [Tagbar](https://github.com/majutsushi/tagbar)
 * [virtualenv.vim](https://github.com/jmcantrell/vim-virtualenv)
