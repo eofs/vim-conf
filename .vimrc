@@ -46,6 +46,7 @@
     filetype plugin indent on
     syntax on               " Enable syntax highlighting
     set mouse=a             " Enable mouse
+    set ttymouse=urxvt      " Enable extended mouse coordinates
     set encoding=utf-8
     scriptencoding utf-8    " Use UTF-8 by default
     set shortmess+=filmnrxoOtT  " Avoid "Hit Enter" messages
