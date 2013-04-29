@@ -28,10 +28,9 @@
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'xolox/vim-session'
         Bundle 'bufexplorer.zip'
-        Bundle 'honza/snipmate-snippets'
+        Bundle 'honza/vim-snippets'
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neosnippet'
-        Bundle 'honza/snipmate-snippets'
         Bundle 'Lokaltog/vim-powerline'
         Bundle 'majutsushi/tagbar'
     " }
