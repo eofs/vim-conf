@@ -27,12 +27,15 @@
         Bundle 'kien/ctrlp.vim'
         Bundle 'altercation/vim-colors-solarized'
         Bundle 'xolox/vim-session'
+        Bundle 'xolox/vim-misc'
         Bundle 'bufexplorer.zip'
         Bundle 'honza/vim-snippets'
         Bundle 'Shougo/neocomplcache'
         Bundle 'Shougo/neosnippet'
         Bundle 'Lokaltog/vim-powerline'
         Bundle 'majutsushi/tagbar'
+        Bundle 'digitaltoad/vim-jade'
+        Bundle 'wavded/vim-stylus'
     " }
     " Python (and Django) {
         Bundle 'jmcantrell/vim-virtualenv'
