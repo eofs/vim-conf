@@ -211,6 +211,10 @@
         nmap <leader>ss :SessionSave<CR>
     " }
 
+    " Syntastic {
+        let g:syntastic_javascript_jshint_conf='~/.vim.eofs/.jshintrc'
+    " }
+
     " Buffer explorer {
         nmap <leader>b :BufExplorer<CR>
     " }
