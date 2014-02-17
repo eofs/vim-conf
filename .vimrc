@@ -38,9 +38,8 @@
         Bundle 'digitaltoad/vim-jade'
         Bundle 'wavded/vim-stylus'
     " }
-    " Python (and Django) {
+    " Python {
         Bundle 'jmcantrell/vim-virtualenv'
-        Bundle 'vim-django'
         Bundle 'klen/python-mode'
     " }
 " }
@@ -180,17 +179,6 @@
           \ 'dir':  '\v[\/]\.(git|hg|svn)$',
           \ 'file': '\v\.(exe|so|dll|pyc)$',
           \ }
-    " }
-
-    " vim-django {
-        let g:django_activate_nerdtree = 1          " Launch NerdTree when project is activated
-        let g:django_activate_virtualenv = 1        " Activate virtualenv when project is activated
-
-        nmap <leader>da :DjangoProjectActivate 
-        nmap <silent> <leader>dad :DjangoAdmin 
-        nmap <silent> <leader>dm :DjangoManage 
-        nmap <leader>dc :DjangoCollectStaticLink<CR>
-        nmap <leader>ds :DjangoSyncDb<CR>
     " }
 
     " vim-virtualenv {
