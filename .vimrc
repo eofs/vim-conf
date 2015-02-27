@@ -37,6 +37,7 @@
         Bundle 'majutsushi/tagbar'
         Bundle 'digitaltoad/vim-jade'
         Bundle 'wavded/vim-stylus'
+        Bundle 'mattn/emmet-vim'
     " }
     " Python {
         Bundle 'jmcantrell/vim-virtualenv'
