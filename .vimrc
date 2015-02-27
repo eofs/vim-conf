@@ -9,39 +9,39 @@
     set nocompatible
 " }
 
-" Bundles {
+" Plugins {
     filetype off
 
     set rtp+=~/.vim/bundle/vundle/
     call vundle#rc()
 
     " Let Vundle manage Vundle
-    Bundle 'gmarik/vundle'
+    Plugin 'gmarik/vundle'
 
     " General bundles {
-        Bundle 'scrooloose/nerdtree'
-        Bundle 'scrooloose/nerdcommenter'
-        Bundle 'scrooloose/syntastic'
-        Bundle 'jistr/vim-nerdtree-tabs'
-        Bundle 'tpope/vim-fugitive'
-        Bundle 'kien/ctrlp.vim'
-        Bundle 'altercation/vim-colors-solarized'
-        Bundle 'xolox/vim-session'
-        Bundle 'xolox/vim-misc'
-        Bundle 'bufexplorer.zip'
-        Bundle 'honza/vim-snippets'
-        Bundle 'Shougo/neocomplete'
-        Bundle 'Shougo/neosnippet'
-        Bundle 'Shougo/neosnippet-snippets'
-        Bundle 'Lokaltog/vim-powerline'
-        Bundle 'majutsushi/tagbar'
-        Bundle 'digitaltoad/vim-jade'
-        Bundle 'wavded/vim-stylus'
-        Bundle 'mattn/emmet-vim'
+        Plugin 'scrooloose/nerdtree'
+        Plugin 'scrooloose/nerdcommenter'
+        Plugin 'scrooloose/syntastic'
+        Plugin 'jistr/vim-nerdtree-tabs'
+        Plugin 'tpope/vim-fugitive'
+        Plugin 'kien/ctrlp.vim'
+        Plugin 'altercation/vim-colors-solarized'
+        Plugin 'xolox/vim-session'
+        Plugin 'xolox/vim-misc'
+        Plugin 'bufexplorer.zip'
+        Plugin 'honza/vim-snippets'
+        Plugin 'Shougo/neocomplete'
+        Plugin 'Shougo/neosnippet'
+        Plugin 'Shougo/neosnippet-snippets'
+        Plugin 'Lokaltog/vim-powerline'
+        Plugin 'majutsushi/tagbar'
+        Plugin 'digitaltoad/vim-jade'
+        Plugin 'wavded/vim-stylus'
+        Plugin 'mattn/emmet-vim'
     " }
     " Python {
-        Bundle 'jmcantrell/vim-virtualenv'
-        Bundle 'klen/python-mode'
+        Plugin 'jmcantrell/vim-virtualenv'
+        Plugin 'klen/python-mode'
     " }
 " }
 

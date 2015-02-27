@@ -72,7 +72,7 @@ if [ ! -e $HOME/.vim/bundle/vundle ]; then
 fi
 
 info "Installing and updating plugins"
-vim +BundleInstall! +BundleClean +qall
+vim +PluginInstall! +PluginClean +qall
 
 [ $? -eq 0 ] || die "Uh oh! Something went wrong..."
 info "Happy vim moments!"
