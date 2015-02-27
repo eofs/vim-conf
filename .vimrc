@@ -12,11 +12,11 @@
 " Plugins {
     filetype off
 
-    set rtp+=~/.vim/bundle/vundle/
-    call vundle#rc()
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
 
     " Let Vundle manage Vundle
-    Plugin 'gmarik/vundle'
+    Plugin 'gmarik/Vundle.vim'
 
     " General bundles {
         Plugin 'scrooloose/nerdtree'
@@ -43,10 +43,12 @@
         Plugin 'jmcantrell/vim-virtualenv'
         Plugin 'klen/python-mode'
     " }
+
+    call vundle#end()
+    filetype plugin indent on
 " }
 
 " General settings {
-    filetype plugin indent on
     syntax on               " Enable syntax highlighting
     set mouse=a             " Enable mouse
     set ttymouse=urxvt      " Enable extended mouse coordinates

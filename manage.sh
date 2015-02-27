@@ -68,7 +68,7 @@ symlink $target/.vim $HOME/.vimrc
 
 if [ ! -e $HOME/.vim/bundle/vundle ]; then
     info "Installing Vundle"
-    git clone https://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
+    git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 fi
 
 info "Installing and updating plugins"
